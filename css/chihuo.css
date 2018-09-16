@@ -1,0 +1,545 @@
+
+ /*
+* @Author: Administrator
+* @Date:   2018-08-07 09:38:10
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-09-09 14:18:19
+*/
+
+*{
+	margin: 0px;
+	padding: 0px;
+    list-style: none;
+   
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
+i{
+  font-style: normal;
+}
+.head{
+	width:7.5rem;
+	height: 1rem;
+	background-color: #61DFA2;
+	overflow: hidden;
+}
+.head .ziti{
+	width: 1.5rem;
+	height: 0.8rem;
+	/* background-color:red; */
+	margin: 0.05rem 0 0.29rem 0.3rem ;
+	
+	text-align: center;
+     overflow: hidden;
+      float: left;
+}
+
+.head .ziti li.log{
+	width: 0.27rem;
+	height:0.4rem;
+	/* background-color: blue; */
+	background-image: url('../img/dizhi.png');
+	background-size: 0.27rem 0.4rem;
+	margin: 0.2rem 0.1rem  ;
+	float: left;
+}
+.head .ziti li p{
+    color: white;
+    font-size: 0.17rem;
+    float: left;
+    
+  margin: 0.3rem 0rem  ;
+   
+}
+.head .sou{
+	width:4.60rem; 
+	height: 0.3rem;
+	background-color: white;
+	 float: left;
+	 border: none;
+	 border-radius: 0.2rem;
+	 margin: 0.35rem 0rem;
+	 background-image: url('../img/sou.png');
+	 background-size: 0.25rem 0.25rem;
+	 background-position: 4.4rem center;
+	 background-repeat: no-repeat;
+	 padding-left: 0.2rem;
+
+
+}
+input::-webkit-input-placeholder{
+   color:#e1e1e1;
+   font-size:0.2rem
+}
+.head .sao{
+	width: 0.43rem;
+	height: 0.43rem;
+	background-color: white;
+	border-radius: 50%;
+	float: right;
+	margin: 0.28rem 0.3rem 0.32rem 0rem;
+	background-image: url('../img/sao.png');
+	background-size: 0.25rem 0.25rem;
+	background-position: center center;
+	background-repeat: no-repeat;
+	
+}
+
+/* 导航结束 */
+
+/* 轮播图开始 */
+.banner{
+	width: 100%;
+	/* height: 4.01rem; */
+	
+}
+.banner img{
+	width: 100%;
+	height: 3.93rem;
+}
+/* 轮播结束 */
+/* 8个圈开始 */
+.bi{
+	width: 7.04rem;
+	height: 4rem;
+	/* background: pink; */
+	margin: 0 auto;
+}
+.bi .quan{
+	width: 1.56rem;
+	height: 1.8rem;
+	/* background: red; */
+	/* border-radius: 50%; */
+	float: left;
+    margin: 0.4rem 0.1rem;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+ 
+}
+.bi .quan:nth-child(1){
+	background-image: url('../img/ms.png');
+	background-size: 1.5rem 1.5rem;
+	background-position: center -0.05rem;
+	background-repeat: no-repeat;
+}
+.bi .quan:nth-child(2){
+	background-image: url('../img/xuc.png');
+	background-size: 1.5rem 1.5rem;
+	background-position: center -0.05rem;
+	background-repeat: no-repeat;
+}
+.bi .quan:nth-child(3){
+	background-image: url('../img/sc.png');
+	background-size: 1.5rem 1.5rem;
+	background-position: center -0.05rem;
+	background-repeat: no-repeat;
+}
+.bi .quan:nth-child(4){
+	background-image: url('../img/cs.png');
+	background-size: 1.5rem 1.5rem;
+	background-position: center -0.05rem;
+	background-repeat: no-repeat;
+}
+.bi .quan:nth-child(5){
+	margin: -0.2rem 0.1rem;
+	background-image: url('../img/tp.png');
+	background-size: 1.5rem 1.5rem;
+	background-position: center -0.05rem;
+	background-repeat: no-repeat;
+}
+.bi .quan:nth-child(6){
+	margin: -0.2rem 0.1rem;
+	background-image: url('../img/jph.png');
+	background-size: 1.5rem 1.5rem;
+	background-position: center -0.05rem;
+	background-repeat: no-repeat;
+}
+.bi .quan:nth-child(7){
+	margin: -0.2rem 0.1rem;
+	background-image: url('../img/xh.png');
+	background-size: 1.5rem 1.5rem;
+	background-position: center -0.05rem;
+	background-repeat: no-repeat;
+}
+.bi .quan:nth-child(8){
+	margin: -0.2rem 0.1rem;
+	background-image: url('../img/gd.png');
+	background-size: 1.5rem 1.5rem;
+	background-position: center -0.05rem;
+	background-repeat: no-repeat;
+}
+.bi .quan span{
+	font-size: 0.19rem;
+	font-weight: 600;
+	display: block;
+	margin-bottom: -1.3rem;
+	color: #888888;
+}
+
+/* 8个圈结束  */
+/* 品质优选开始 */
+.pzyx{
+	width: 7.04rem;
+	height: 2rem;
+	background-image: url('../img/pzyx.png');
+	background-size: 2.5rem 1rem;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+/* 品质优选结束 */
+/* <!-- 3图福利 --> */
+.tupian{
+	width: 7.04rem;
+	height: 3.03rem;
+	margin: 0 auto;
+}
+.tupian .tu1{
+	width: 3.51rem;
+	height: 3.01rem;
+	background-image: url('../img/tu1.png');
+	background-size: 3.51rem 3.01rem;
+	float: left;
+}
+.tupian .tu2{
+	width: 3.53rem;
+	height: 1.52rem;
+	background-image: url('../img/tu2.png');
+	background-size: 3.53rem 1.52rem;
+	float: left;
+}
+.tupian .tu3{
+	width: 3.51rem;
+	height: 1.52rem;
+	background-image: url('../img/tu3.png');
+	background-size: 3.53rem 1.52rem;
+	float: left;
+}
+
+
+
+/* <!-- 3图福利结束 --> */
+/* <!-- 商家推荐 --> */
+
+.sjtj{
+	width: 7.04rem;
+	height: 2rem;
+	background-image: url('../img/sjtj.png');
+	background-size: 2.5rem 1rem;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+
+
+/* <!-- 商家推荐结束 --> */
+
+
+/* title */
+.title{
+	width: 7.04rem;
+	height: 0.53rem;
+	/* background: pink; */
+	margin: 0 auto;
+}
+.title .box{
+	width: 1.39rem;
+	height: 0.46rem;
+	background: white;
+	float: left;
+	margin-left: 0.35rem;
+	border: 0.05rem solid #93caeb;
+	border-radius: 0.3rem;
+	text-align: center;
+	line-height: 0.46rem;
+}
+.title .box:nth-child(1){
+	margin-left: 0rem;
+}
+.title .box:nth-child(4){
+	margin-right: 0rem;
+}
+
+.title .box h2{
+
+	font-size: 0.26rem;
+}
+/* title结束 */
+/* 推荐商品 开始 */
+.tjd{
+	width: 7.04rem;
+	height: 2.71rem;
+	/* background: blue; */
+	margin: 0 auto;
+	margin-top: 0.6rem;
+	box-shadow: 0 0.1rem 0.2rem 0.02rem rgba(38, 252, 255, 0.3);
+
+}
+.tjj{
+	width: 7.04rem;
+	height: 2.71rem;
+	/* background: blue; */
+	margin: 0 auto;
+	margin-top: 0.6rem;
+	box-shadow: 0 0.1rem 0.2rem 0.02rem rgba(38, 252, 255, 0.3);
+
+}
+.tjj:nth-child(5){
+	margin-bottom: 1.3rem;
+}
+.tjj .orange{
+	width: 1.58rem;
+	height: 2.34rem;
+	/* background: pink; */
+	background-image: url('../img/orange.png');
+	background-size: 2.3rem 2.7rem;
+	float: left;
+
+}
+.tjj .bays{
+	width: 1.58rem;
+	height: 2.34rem;
+	/* background: pink; */
+	background-image: url('../img/bcsy.png');
+	background-size: 1.58rem 2.34rem;
+	float: left;
+
+}
+.tjj .caomei{
+	width: 1.58rem;
+	height: 2.34rem;
+	/* background: pink; */
+	background-image: url('../img/caomei.png');
+	background-size: 1.58rem 2.34rem;
+	float: left;
+
+}
+.tjj .boluo{
+	width: 1.58rem;
+	height: 2.34rem;
+	/* background: pink; */
+	background-image: url('../img/boluo.png');
+	background-size: 1.58rem 2.34rem;
+	float: left;
+
+}
+.tjj .shuiguo{
+	width: 1.58rem;
+	height: 2.34rem;
+	/* background: pink; */
+	background-image: url('../img/shuiguo.png');
+	background-size: 1.58rem 2.34rem;
+	float: left;
+
+}
+.tjj .rep-r ul{
+    width: 5.46rem;
+    height: 0.5rem;
+    /* background: green; */
+    /* float: right; */
+    
+    display: flex;
+    justify-content: flex-end;
+}
+.tjj .rep-r ul:nth-child(1){
+	height: 0.7rem;
+	margin-left: 1.7rem;
+}
+.tjj .rep-r ul:nth-child(2){
+	height: 0.35rem;
+	margin-left: 1.7rem;
+}
+/* .tjj .rep-r ul:nth-child(3){
+	height: 0.25rem;
+} */
+.tjj .rep-r ul:nth-child(3){
+	height: 0.3rem;
+	margin-left: 1.7rem;
+}
+.tjj .rep-r ul p{
+	width: 3.3rem;
+	float: left;
+	
+     font-weight: 600;
+	font-size: 0.4rem;
+	line-height: 0.8rem;
+	/* margin-right: 2rem; */
+	margin-top: -0.18rem;
+}
+.tjj .rep-r ul li .xf{
+	width: 1.3rem;
+	height: 0.25rem;
+	/* background: yellow; */
+	float: right;
+	margin-top: 0.02rem;
+	margin-right: 0.7rem;
+}
+.tjj .rep-r ul li .xing{
+	width: 0.25rem;
+	height: 0.25rem;
+	/* background: blue; */
+	float: left;
+	color: #ffd900;
+	font-size: 0.3rem;
+	margin-right: 0.01rem;
+	margin-top: 0.02rem;
+}
+.tjj .rep-r ul li .xing:nth-child(5){
+	color: #fff6cc;
+}
+.tjj .rep-r .re{
+	width: 0.57rem;
+	height: 0.4rem;
+	background-image: url('../img/re.png');
+	background-size: 0.57rem 0.4rem;
+	float: right;
+	margin-top: -0.2rem;
+}
+.tjj .rep-r ul a{
+	width: 100%;
+	font-size: 0.2rem;
+	color: #505050;
+	/* margin-right: 1rem; */
+	line-height: 100%;
+	text-align: center;
+}
+.tjj .rep-r ul a.yh{
+	margin-right: 1.35rem;
+	width: 200%;
+}	
+.tjj .rep-r ul .manjian{
+	width: 0.87rem;
+	height: 0.3rem;
+	background: white;
+	margin-top: 0.1rem;
+	/* margin-right: 0.15rem; */
+	border-radius: 0.2rem;
+	border: 0.03rem solid #92cbe9;
+    float: left;
+}
+.tjj .rep-r ul:nth-child(4){
+	
+	margin-left: 1.7rem;
+	/* background: yellow; */
+}
+.tjj .rep-r ul:nth-child(5){
+	margin-left: 1.7rem;
+	/* background: yellow; */
+}
+.tjj .rep-r ul .manjian2 {
+	float: left;
+   
+}
+.tjj .rep-r ul .manjian3 {
+	float: left;
+   
+}
+.tjj .rep-r ul .manjian2 h5{
+	width: 100%;
+	 font-size: 0.25rem;
+	 margin-right: 0.7rem;
+	 margin-top: 0.08rem;
+}
+.tjj .rep-r ul .manjian3 h5{
+	width: 100%;
+	 font-size: 0.25rem;
+	 margin-right: 0.75rem;
+	 margin-top: 0.08rem;
+}
+
+.tjj .rep-r ul .manjian h6.mj{
+	/* width: 100%; */
+	font-size: 0.2rem;
+	color: #383838;
+   
+	margin-top: 0.02rem;
+	margin-left: 0.1rem;
+	line-height: 100%;
+	text-align: center;
+	letter-spacing: 0.1rem;
+}
+.tjj .rep-r ul .dz{
+	width: 0.23rem;
+	height: 0.27rem;
+	background-image: url('../img/dz.png');
+	background-size: 0.23rem 0.27rem;
+	float: left;
+	 /* margin-right: 1.9rem; */
+	 margin-top: 0.1rem;
+
+}
+.tjj .rep-r ul h4{
+ font-size: 0.1rem;
+	color: #38a0df;
+    margin-right: 0.15rem;
+	margin-top: 0.15rem;
+	margin-left: 0.1rem;
+	line-height: 100%;
+	text-align: center;
+	font-weight: 400;
+	/* letter-spacing: 0.05rem; */
+}
+.tjj .rep-r ul .sj{
+	width: 0.23rem;
+	height: 0.27rem;
+	background-image: url('../img/sj.png');
+	background-size: 0.23rem 0.27rem;
+	float: left;
+	 /* margin-right: 1.9rem; */
+	 margin-top: 0.1rem;
+
+}
+
+/* 推商品 结束 */
+
+.footer{
+    width: 7.63rem;
+    height: 1.2rem;
+    background: white;
+    display: flex;
+	justify-content: space-between;
+    position: fixed;
+	bottom: 0;
+}
+.footer .foo{
+	width: 0.72rem;
+	height: 0.69rem;
+	background-image: url('../img/sy.png');
+	background-size: 0.66rem 0.69rem;
+	background-repeat: no-repeat;
+	margin: 0.29rem 0.6rem 0;
+	
+
+}
+.footer .ff{
+	width: 0.72rem;
+	height: 0.69rem;
+	background-image: url('../img/sy.png');
+	background-size: 0.66rem 0.69rem;
+	background-repeat: no-repeat;
+	margin: 0.29rem 0.6rem 0;
+	
+
+}
+.footer .fff{
+	width: 0.72rem;
+	height: 0.69rem;
+	background-image: url('../img/sy.png');
+	background-size: 0.66rem 0.69rem;
+	background-repeat: no-repeat;
+	margin: 0.29rem 0.6rem 0;
+	
+
+}
+.footer .foo:nth-child(2){
+	background-image: url('../img/fx.png');
+}
+.footer .fff{
+	background-image: url('../img/dd.png');
+}
+.footer .ff{
+	background-image: url('../img/wd.png');
+}

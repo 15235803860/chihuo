@@ -1,0 +1,323 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-09 13:01:10
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-13 23:55:23
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+.head{
+     width: 7.5rem;
+     height: 5.92rem;
+     background: #7FDEC6;
+     overflow: hidden;
+     position: relative;
+ }
+.head .fh{
+	width: 0.7rem;
+	height: 0.7rem;
+	margin: 0.2rem 0.2rem;
+
+	background-image: url('../img/fanhui.png');
+	background-size: 0.7rem 0.7rem;
+}
+.head .ziti h1{
+	font-size: 0.3rem;
+	display: block;
+	float: left;
+	color: white;
+	margin-left: 0.2rem;
+
+}
+.head .ziti .gs{
+	width: 0.84rem;
+	height: 0.31rem;
+	border: 0.02rem solid white;
+	border-radius: 0.5rem;
+	margin-left: 1.8rem;
+}
+.head .ziti .gs h2{
+	font-size: 0.25rem;
+	color: white;
+	text-align: center;
+	
+}
+.head .ziti h5{
+	font-size: 0.3rem;
+	color: white;
+	display: block;
+	margin-left: -1.5rem;
+	float: left;
+	width: 7.1rem;
+}
+.head .ziti h4{
+	font-size: 0.25rem;
+	color: white;
+	margin-left: 0.2rem;
+}
+
+.head .box-1{
+	width: 7.02rem;
+	height: 2.36rem;
+	background: white;
+	margin: 0 auto;
+	border-radius: 0.3rem;
+	margin-top: 0.5rem;
+	display: flex;
+	flex-direction: column;
+	padding: 0.2rem 0.2rem;
+	box-sizing: border-box;
+}
+.head .box-1 li{
+	width: 100%;
+	height: 0.4rem;
+	/* background: red; */
+	/* margin-top: 0.15rem; */
+}
+.head .box-1 li:nth-child(1){
+	height: ;
+}
+.head .box-1 li h5{
+	font-size: 0.4rem;
+
+}
+.head .box-1 li h6{
+	font-size: 0.3rem;
+	text-align: right;
+	color: red;
+}
+.head .box-1 li h1{
+	font-size: 0.2rem;
+	color: red;
+}
+.head .box-1 li h4{
+	font-size: 0.2rem;
+}
+.head .box-1 li h2{
+	font-size: 0.4rem;
+	display: block;
+	float: left;
+}
+.head .box-1 li h3{
+	font-size: 0.35rem;
+	display: block;
+	float: right;
+	color: red;
+}
+.beij{
+	width: 100%;
+	height: 10.0rem;
+	background: #E4E6E7;
+}
+/* center */
+.center{
+    width: 7.02rem;
+    height: 7.2rem;
+    border-radius: 0.2rem;
+    background: white;
+    position: absolute;
+    top: 5.4rem;
+    left: 0.25rem;
+    display: flex;
+	flex-direction: column;
+}
+.center li{
+    width: 100%;
+    height: 0.9rem;
+    /* background: red; */
+    margin-top: 0.1rem;
+    margin-left: 0.1rem;
+}
+.center li h1{
+	font-size: 0.4rem;
+	
+}
+.center li h2{
+	font-size: 0.2rem;
+	
+}
+
+.center li:nth-child(2){
+	height: 0.2rem;
+	
+}
+.center li:nth-child(7){
+	height: 0.2rem;
+	
+}
+.center li:nth-child(8){
+	height: 0.5rem;
+	
+}
+.center li:nth-child(10){
+	height: 0.5rem;
+	
+}
+.center li:nth-child(9){
+	height: 0.2rem;
+	
+}
+.center li .tu{
+	width: 0.96rem;
+	height: 0.84rem;
+	background-image: url('../img/1.png');
+	background-size: 1rem 0.84rem;
+	float: left;
+	border-radius: 0.4rem;
+}
+.center li h3{
+	font-size: 0.35rem;
+	line-height: 0.84rem;
+	display: block;
+	float: left;
+	margin-left: 0.2rem;
+	
+}
+.center li .cheng{
+	width: 0.4rem;
+	height: 0.4rem;
+	background-image: url('../img/cheng.png');
+	background-size: 0.4rem 0.4rem;
+	float: left;
+	margin-top: 0.2rem;
+	margin-left: 0.4rem;
+}
+.center li h4{
+	font-size: 0.35rem;
+	line-height: 0.84rem;
+	display: block;
+	float: left;
+	margin-left: 0.2rem;
+
+}
+.center li h5{
+	font-size: 0.3rem;
+	line-height: 0.84rem;
+	display: block;
+	float: right;
+	/* margin-right: 0.2rem; */
+	color: red;
+}
+.center li h6{
+	font-size: 0.2rem;
+	line-height: 0.97rem;
+	display: block;
+	float: right;
+	margin-right: 0.2rem;
+	color: #B7B4B4;
+}
+.center li p{
+	font-size: 0.2rem;
+	
+}
+.center li.li8 span{
+	font-size: 0.3rem;
+	float: left
+}
+.center li.li8 p{
+	font-size: 0.2rem;
+	float: right;
+	margin-right: 0.2rem;
+}
+.center li.li9 span{
+	font-size: 0.3rem;
+	float: left
+}
+.center li.li9 p{
+	font-size: 0.4rem;
+	float: right;
+	color: red;
+}
+.center li.li9 h1{
+	font-size: 0.2rem;
+	float: right;
+	margin-top: 0.2rem;
+	margin-right: 0.2rem;
+}
+.box-2{
+	width: 7.02rem;
+	height: 2rem;
+	position: absolute;
+    top: 12.8rem;
+    left: 0.25rem;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+
+}
+.box-2 dl{
+	width: 7.02rem;
+	height: 0.65rem;
+	background: white;
+	float:left;
+
+}
+.box-2 dl:nth-child(2){
+	height: 0.3rem;
+}
+.box-2 dl h1{
+	font-size: 0.3rem;
+	float: left;
+	line-height: 0.65rem;
+	color: #1F1F1F;
+}
+.box-2 dl p{
+	font-size: 0.2rem;
+}
+.box-2 dl h2{
+	font-size: 0.2rem;
+	float: right;
+	line-height: 0.65rem;
+	color: #858585;
+	margin-right: 0.2rem;
+}
+footer{
+	width: 100%;
+	height: 1.15rem;
+	background: white;
+	position: fixed;
+	bottom: 0;
+}
+footer h1{
+	font-size: 0.4rem;
+	color: red;
+	float: left;
+	margin-left: 0.5rem;
+	line-height: 1rem;
+}
+footer h2{
+	font-size: 0.2rem;
+	color: #2F2F2F;
+	float: left;
+	margin-left: 0.2rem;
+	line-height: 1.2rem;
+}
+footer .zhifu{
+	width: 2.05rem;
+	height: 0.66rem;
+	background: red;
+	float: right;
+	margin-top: 0.3rem;
+	margin-right: 0.4rem;
+	border-radius: 0.4rem;
+}
+footer .zhifu h3{
+	font-size: 0.3rem;
+	line-height: 0.66rem;
+	text-align: center;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,498 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-09 13:01:10
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-12 22:24:48
+*/
+
+.toubu{
+	width: 7.5rem;
+	height: 0.92rem;
+	background-color: white;
+  position: fixed;
+    top: 0;
+}
+.head{
+	width: 7.5rem;
+    height: 0.92rem;
+    background: #74deba;
+    /* background:radial-gradient(center, shape size, start-color, ..., last-color); */
+    overflow: hidden;
+    
+}
+.head .fanhui{
+	width: 0.61rem;
+	height: 0.64rem;
+	background-image: url('../img/fanhui.png');
+	background-size: 0.61rem 0.64rem;
+	margin:0.18rem 0.23rem ;
+	float: left;
+}
+.head .fanhui:nth-child(2){
+	width: 0.61rem;
+	height: 0.64rem;
+	background-image: url('../img/fenxiang.png');
+	background-size: 0.61rem 0.64rem;
+	margin:0.18rem 0.23rem ;
+    float: right;
+}
+.head .fanhui:nth-child(3){
+	width: 0.61rem;
+	height: 0.64rem;
+	background-image: url('../img/sousuo.png');
+	background-size: 0.61rem 0.64rem;
+	margin:0.18rem 0.12rem ;
+    float: right;
+}
+
+.head .zi{
+	width: 100%;
+	height: 1.97rem;
+	/* background: pink; */
+	margin:0 auto;
+	/* margin-top: 0.36rem; */
+}
+.head .ziti{
+	width: 100%;
+	height: 0.33rem;
+	font-size: 0.2rem;
+    position: relative;
+    margin-top: 0.2rem;
+}
+
+.head .ziti h1{
+	text-align: center;
+	margin-left: 2.2rem;
+	color: #ffffff;
+	letter-spacing: 0.2rem;
+}
+.head .ziti:nth-child(2){
+	width: 4.33rem;
+	margin: 0 auto;
+}
+.head .ziti h2{
+	font-size: 0.2rem;
+	margin-left: 0.48rem;
+	text-align: center;
+	color: #ace1cd;
+	margin-top: 0.1rem;
+	letter-spacing: 0.2rem;
+}
+.img{
+	width: 7.02rem;
+	height: 4rem;
+	background-image: url('../img/1.png');
+	background-size: 100% 100%;
+    margin: 0 auto;
+    margin-top: 1.2rem;
+}
+.box-1{
+	width: 7.02rem;
+	height: 2.5rem;
+	/* background: yellow; */
+	position: relative;
+	box-shadow:0 0.2rem 0.3rem 0rem #74deba;
+	margin: 0 auto;
+}
+.box-1 .dl{
+   width: 100%;
+   height: 0.62rem;
+   /* background: green; */
+}
+.box-1 .dl h1{
+	font-size: 0.5rem;
+	color: #7ce9bf;
+	letter-spacing: 0.1rem;
+	float: left;
+}
+.box-1 .dl .yuan{
+	width: 0.62rem;
+	height: 0.34rem;
+	border-radius: 0.2rem;
+	border: 0.03rem solid red;
+	float: left;
+	margin-left: 0.2rem;
+	text-align: center;
+	margin-top: 0.1rem;
+	background: white;
+}
+.box-1 .dl .yuan1{
+	width: 1.13rem;
+	height: 0.34rem;
+	border-radius: 0.2rem;
+	border: 0.03rem solid red;
+	float: left;
+	margin-left: 0.2rem;
+	text-align: center;
+	margin-top: 0.1rem;
+	background: white;
+}
+.box-1 .dl h2{
+	font-size: 0.2rem;
+	color: #A9A9A9;
+	letter-spacing: 0.05rem;
+}
+.box-1 .dl h3{
+	display: block;
+	float: left;
+	font-size: 0.2rem;
+	color: #A9A9A9;
+	margin-top: 0.1rem;
+	letter-spacing: 0.05rem;
+	margin-left: -2.3rem;
+}
+.box-1 .dl h3:nth-child(2){
+	margin-left: -0.7rem;
+}
+
+.box-1 .jrgwc{
+	width: 2.12rem;
+	height: 0.6rem;
+	background: red;
+	
+	position: absolute;
+	top: 0;
+	bottom: 0.6rem;
+	right: 0;
+	margin: auto 0;
+	border-radius: 0.4rem;
+}
+.box-1 .jrgwc h1{
+	color: white;
+	font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.6rem;
+}
+.box-1 .dl h4{
+	font-size: 0.5rem;
+	color: red;
+	letter-spacing: 0.1rem;
+	display: block;
+	margin-left: 0.2rem;
+}
+.box-1 .dl h5{
+	display: block;
+	width: 5.8rem;
+	font-size: 0.2rem;
+	color: #B1B1B1;
+	letter-spacing: 0.1rem;
+	display: block;
+	margin-left: 0.2rem;
+}
+
+/* 商品评价 */
+
+.box2{
+	width: 7.02rem;
+	height: 15.86rem;
+	background: white;
+	margin: 0 auto;
+	margin-top: 0.2rem;
+	display: flex;
+	flex-direction: column;
+
+}
+.box2 .pingjia{
+	width: 100%;
+	height: 1rem;
+	/* background: green; */
+	margin-top: 0.25rem;
+
+}
+.box2 .pingjia:nth-child(1){
+	margin-top: 0rem;
+}
+.box2 .pingjia1 h1{
+	font-size: 0.5rem;
+	/* line-height: 1rem; */
+	display: block;
+	float: left;
+	margin-right: 2rem;
+}
+.box2 .pingjia1 h2{
+	font-size: 0.15rem;
+	/* margin-top: -0.4rem; */
+	/* display: block; */
+	width: 3.03rem;
+	letter-spacing: 0.03rem;
+	float: left;
+	margin-top: -0.2rem;
+	color: #DEDEDE;
+}
+.box2 .pingjia1 .pl{
+	width: 1.22rem;
+	height: 0.33rem;
+	/* background: red; */
+    float: right;
+    margin-top: -0.3rem;
+    /* margin-right: 0.2rem; */
+    border-radius: 0.2rem;
+}
+.box2 .pingjia1 .pl h4{
+	font-size: 0.2rem;
+	text-align: center;
+	color: white;
+}
+.box2 .pingjia1 h3{
+	font-size: 0.2rem;
+	line-height: 0.7rem;
+	display: block;
+	float: right;
+	margin-top: -0.4rem;
+	margin-right: 0.2rem;
+}
+.pingjia .tou{
+	width: 1rem;
+	height: 1rem;
+	float: left;
+	background-image: url('../img/toux.jpg');
+    background-size: 1rem 1rem;
+    display: flex;
+	flex-direction: column;
+}
+.pingjia .dl{
+	width: 6rem;
+	height: 0.335rem;
+	/* background: yellow; */
+	margin-left: 1rem;
+	
+}
+
+.pingjia .dl h6{
+	font-size: 0.2rem;
+	display: block;
+	float: left;
+	line-height: 0.335rem;
+	width: 0.68rem
+}
+.pingjia .dl h5{
+	font-size: 0.2rem;
+	display: block;
+	float: right;
+	line-height: 0.335rem;
+	width: 0.9rem;
+	margin-right: 3rem;
+	color: yellow;
+}
+.pingjia .dl h4{
+	font-size: 0.15rem;
+	display: block;
+	float: right;
+	margin-bottom: 0rem;
+	margin-top: 0.1rem;
+    letter-spacing: 0.05rem;
+}
+.pingjia .dl .mg{
+	width: 0.3rem;
+	height: 0.3rem;
+
+	background-image: url('../img/dzz.png');
+	background-size: 0.3rem 0.3rem;
+	float: left;
+}
+.pingjia .dl h3{
+	font-size: 0.2rem;
+	color: #848484;
+	display: block;
+	float: left;
+}
+
+.pingjia .dl .zan{
+width: 0.3rem;
+	height: 0.3rem;
+
+	background-image: url('../img/zan.png');
+	background-size: 0.3rem 0.3rem;
+	float: left;
+	margin-left: 0.5rem;
+}
+.pingjia .dl h2{
+	font-size: 0.2rem;
+	color: #848484;
+	display: block;
+	float: left;
+
+}
+
+.pingjia .dl .cha{
+width: 0.3rem;
+	height: 0.3rem;
+
+	background-image: url('../img/cha.png');
+	background-size: 0.3rem 0.3rem;
+	float: left;
+}
+.pingjia .dl h1{
+	font-size: 0.2rem;
+	color: #848484;
+	display: block;
+	float: left;
+	margin-right: -0.5rem;
+}
+
+/* 商品评价结束 */
+
+/* 商品配料 */
+.box2 .peiliao{
+	width: 7.02rem;
+	height: 1.38rem;
+	background: white;
+	margin-top: 0.4rem;
+}
+.box2 .peiliao .pei-r{
+	width: 7.02rem;
+	height: 0.6rem;
+	background: white;
+}
+.box2 .peiliao .pei-r h1{
+	font-size: 0.5rem;
+	color: #737373;
+	display: block;
+	float: left;
+	margin-right: 2rem;
+}
+.box2 .peiliao .pei-r h2{
+	font-size: 0.15rem;
+	/* margin-top: -0.4rem; */
+	/* display: block; */
+	width: 4.03rem;
+	letter-spacing: 0.05rem;
+	float: left;
+	margin-top: -0.2rem;
+	color: #DEDEDE;
+}
+.box2 .peiliao .pei-r h3{
+	font-size: 0.2rem;
+	
+	width: 3.03rem;
+	letter-spacing: 0.05rem;
+	float: left;
+	color: #999999;
+}
+
+/* 商品配料结束 */
+/* 商品推荐 */
+.peiliao .bod{
+	width: 100%;
+	height: 8.66rem;
+	background: white;
+	margin-bottom: 1rem;
+}
+.peiliao .tuijiantu{
+	width: 3.38rem;
+	height: 3.8rem;
+	/* background: green; */
+	border-radius: 0.3rem;
+	box-shadow: 0 0.2rem 0.3rem 0rem #dec574;
+	float: left;
+	margin: 0 auto;
+	margin-right: 0.2rem;
+	margin-top: 0.2rem;
+}
+.peiliao .tuijiantu:nth-child(2n){
+	margin-right: 0rem;
+}
+.peiliao .tuijiantu .tu{
+	width: 3.38rem;
+	height: 2.12rem;
+	background-image: url('../img/tutu.jpg');
+	background-size: 3.5rem 2.2rem;
+}
+.peiliao .tuijiantu h1{
+	font-size: 0.35rem;
+	text-align: center;
+	margin-top: 0.1rem;
+
+}
+.peiliao .tuijiantu h2{
+	font-size: 0.25rem;
+	text-align: center;
+	color: #BABABA;
+}
+.peiliao .tuijiantu h3{
+	font-size: 0.35rem;
+	text-align: center;
+	margin-top: 0.2rem;
+	color: red;
+}
+
+/* 商品推荐结束 */
+
+/* footer */
+.footer{
+	width: 100%;
+	height: 0.99rem;
+	background-color: white;
+	position: fixed;
+	bottom: 0;
+	
+}
+.footer .foot{
+	width: 100%;
+	height: 3.16rem;
+	background-color: white;
+	
+	bottom: 0;
+	position: relative;
+}
+
+.footer .five{
+	width: 100%;
+	height: 1rem;
+	background-color: white;
+	
+	overflow: hidden;
+	
+}
+.footer .five .gwc{
+	width: 1.06rem;
+	height: 1.11rem;
+	background-image: url('../img/gouwc.png');
+	background-size: 1.06rem 1.11rem;
+	position: absolute;
+	top: -0.5rem;
+	bottom: 0;
+	/* margin: auto 0; */
+}
+.footer .five .f-z{
+	width: 2.41rem;
+	height: 0.65rem;
+	/* background-color: blue; */
+	margin-left: 0.96rem;
+	margin-top: 0.33rem;
+}
+.footer .five .f-r{
+	width: 1.64rem;
+	height: 0.37rem;
+	/* background-color: white; */
+	
+	
+
+}
+.footer .five .f-r h1{
+	font-size: 0.31rem;
+	color: #949292;
+}
+
+.footer .five h4{
+	font-size: 0.15rem;
+	color: #949292;
+}
+.footer .five .xuan{
+	width: 2rem;
+	height: 0.54rem;
+	background-color: #949292;
+	border-radius: 0.4rem;
+	float: right;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0.2rem 0rem;
+    text-align: center;
+    line-height: 0.54rem;
+}
+.footer .five .xuan h1{
+	font-size: 0.3rem;
+	color: white;
+}

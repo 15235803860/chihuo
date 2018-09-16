@@ -1,0 +1,61 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-09 13:01:10
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-15 22:33:58
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+.head{
+    width: 7.5rem;
+    height: 12rem;
+    background-image: url('../img/dingdan.png');
+    background-size: 7.5rem 12rem;
+}
+
+.box-4{
+	width: 7.5rem;
+	height: 0.9rem;
+	padding: 0.3rem 0.3rem 0.3rem 0.3rem;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.box-4 li{
+	width: 0.65rem;
+	height: 0.65rem;
+	background-image: url('../img/shouy.png');
+	background-size: 0.65rem 0.65rem;
+}
+.box-4 li:nth-child(1){
+    margin-left: 0.2rem;
+}
+.box-4 li:nth-child(2){
+    background-image: url('../img/faxian.png');
+    background-size: 0.65rem 0.65rem;
+}
+.box-4 li:nth-child(3){
+    background-image: url('../img/dingd.png');
+    background-size: 0.65rem 0.65rem;
+    background-repeat: no-repeat;
+}
+.box-4 li:nth-child(4){
+	background-image: url('../img/wode.png');
+	background-size: 0.65rem 0.65rem;
+	
+    margin-right: 0.9rem;
+}
+
+
+
+
+
+
+
+
+
+
+

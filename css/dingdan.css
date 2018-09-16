@@ -1,0 +1,56 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-09 13:01:10
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-16 19:19:38
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+.head{
+    width: 7.5rem;
+    height: 12rem;
+    background-image: url('../img/dingdi.png');
+    background-size: 7.5rem 12rem;
+}
+
+.box-4{
+	width: 7.5rem;
+	height: 1.2rem;
+	
+	
+	margin-top: 0.2rem;
+    background-image: url('../img/dingdann.png');
+    background-size: 7.63rem 1.2rem;
+    position: relative;
+}
+
+.box-4 li{
+	width: 1.5rem;
+	height: 1rem;
+	
+
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+.box-4 .gr{
+	width: 1.5rem;
+	height: 1rem;
+	
+
+	position: absolute;
+	top: 0;
+	right: 0;
+
+}
+
+
+
+
+
+
+
+

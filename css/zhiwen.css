@@ -1,0 +1,70 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-09 13:01:10
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-14 18:50:45
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+.head{
+     width: 7.5rem;
+     height: 2.5rem;
+     background: #7FDEC6;
+     overflow: hidden;
+     margin-top: -0.2rem;
+     position: relative;
+ }
+.head .fh{
+	width: 0.7rem;
+	height: 0.7rem;
+	margin: 0.2rem 0.2rem;
+    margin-top: 0.5rem;
+	background-image: url('../img/fanhui.png');
+	background-size: 0.7rem 0.7rem;
+	float: left;
+}
+.head .zi{
+	width: 6.32rem;
+	height: 1.72rem;
+	margin-left: 1rem;
+	margin-top: 0.5rem;
+	background-image: url('../img/zhiwen.png');
+	background-size: 6.32rem 1.72rem;
+	
+	
+}
+.box-1{
+	width: 6.97rem;
+	height: 1rem;
+	background-image: url('../img/zhif1.png');
+	background-size: 6.97rem 1rem;
+	border-radius: 0.2rem;
+	box-shadow: 0 -0.05rem 0.5rem 0rem rgba(0, 0, 0, 0.2);
+
+    position: absolute;
+    top: 1.8rem;
+    left: 0.28rem;
+}
+.box-2{
+	width: 6.5rem;
+	height: 2.74rem;
+	margin: 0 auto;
+	margin-top: 1rem;
+	background-image: url('../img/box2.png');
+	background-size: 6.5rem 2.74rem;
+}
+.box-3{
+	width: 6.4rem;
+	height: 6.78rem;
+	margin: 0 auto;
+	
+	background-image: url('../img/box3.png');
+	background-size: 6.4rem 6.78rem;
+}
+
+
+
+
+
